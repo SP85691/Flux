@@ -20,8 +20,7 @@ def query(payload):
 st.title("AI-Generated Images with FLUX Model")
 
 # Input field for the user prompt
-prompt = st.text_input("Describe the scene:", 
-					value="A girl holding a tablet and is making conversation with a Robot who is responsible. The picture should be in a landscape format")
+prompt = st.text_input("Describe the scene:")
 
 # Button to generate image
 if st.button("Generate Image"):
